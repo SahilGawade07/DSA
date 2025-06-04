@@ -7,12 +7,14 @@ class twoSum {
         while (i < nums.length) {
             for (j = i + 1; j < nums.length; i++) {
                 if (nums[i] + nums[j] == target) {
-                    System.out.println(i + " " + j);
+                    // System.out.println(i + " " + j);
+                    int twoSums[] = { i, j };
                     break;
                 }
                 j++;
             }
             i++;
         }
+        System.out.println(twoSums);
     }
 }
