@@ -1,4 +1,4 @@
-public class palindromeNumber {
+public class palindromeNumber_9 {
     public static void main(String[] args) {
         int x = 1231;
         String num = Integer.toString(x);
