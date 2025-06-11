@@ -15,6 +15,6 @@ class twoSum_1 {
         }
 
         System.out.println("Indices: [" + twoSums[0] + ", " + twoSums[1] + "]");
-        System.out.println("Values: [" + nums[twoSums[0]] + ", " + nums[twoSums[1]] + "]");
+        System.out.println("Value: [" + nums[twoSums[0]] + ", " + nums[twoSums[1]] + "]");
     }
 }
