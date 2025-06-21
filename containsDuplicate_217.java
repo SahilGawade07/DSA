@@ -2,17 +2,17 @@ import java.util.HashMap;
 
 class containsDuplicate {
     public static void main(String[] args) {
-        int nums[] = { 1, 2, 3, 4 };
-        System.out.println(fn(nums));
+        int prices[] = { 1, 2, 3, 4 };
+        System.out.println(fn(prices));
     }
 
-    public static boolean fn(int nums[]) {
+    public static boolean fn(int prices[]) {
         HashMap<Integer, Integer> hm = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (hm.containsKey(nums[i])) {
+        for (int i = 0; i < prices.length; i++) {
+            if (hm.containsKey(prices[i])) {
                 return true;
             } else {
-                hm.put(nums[i], i);
+                hm.put(prices[i], i);
             }
         }
         return false;
