@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 public class ransomNote_383 {
     public static void main(String[] args) {
         String ransomNote = "aa";

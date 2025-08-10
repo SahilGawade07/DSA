@@ -23,6 +23,7 @@ public class ABC_414_A {
             }
         }
         System.out.println(count);
+        sc.close();
 
     }
 }
