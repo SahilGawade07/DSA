@@ -1,5 +1,3 @@
-package codeforces;
-
 import java.util.*;
 
 public class round_1042_A {
