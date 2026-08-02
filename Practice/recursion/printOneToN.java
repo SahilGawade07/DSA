@@ -1,7 +1,7 @@
 public class printOneToN {
     public static void main(String[] args) {
         int n = 8;
-        function(n);
+        function(n, 1);
     }   
     
     
